@@ -1,0 +1,25 @@
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4%;
+    flex-wrap: wrap;
+}
+.product-card{
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.product-card img{
+    width: 180px;
+    height: 160px;
+    object-fit: contain;
+}
+.product-info{
+    text-align: left;
+}
+.product-info p{
+    margin: 12px 0;
+}

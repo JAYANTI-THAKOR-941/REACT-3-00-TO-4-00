@@ -1,9 +1,19 @@
-import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import Header from '../components/Header'
+import Products from '../components/Products'
+import ProductDetails from '../components/ProductDetails'
 
-const App = ()=>{
+function App() {
   return (
-    <h1>Hello Students.!!</h1>
+    <div>
+      <Header/>
+      <Routes>
+        <Route path='/' element={<Products/>} ></Route>        
+        <Route path='/product-details/:id' element={<ProductDetails/>} ></Route>        
+      </Routes>
+    </div>
+    
   )
 }
 
-export default App;
+export default App

@@ -1,0 +1,17 @@
+.hero-container{
+    text-align: center;
+    align-content: center;
+    padding: 100px;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('https://images.pexels.com/photos/5418899/pexels-photo-5418899.jpeg') no-repeat;
+    background-size: cover;
+}
+.hero-container p{
+    width: 50%;
+    margin: 14px auto;
+    font-size: 22px;
+}
+.hero-container h1{
+    font-size: 60px;
+}
