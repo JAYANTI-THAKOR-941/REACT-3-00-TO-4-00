@@ -1,0 +1,18 @@
+table{
+    width: 80%;
+    margin: 4% auto;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+.yes{
+    color: green;
+    font-weight: bold;
+}
+.no{
+    color: red;
+    font-weight: bold;
+}
