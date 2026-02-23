@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './App.css';
+import Practice from './components/Practice';
 
 const App = () => {
 
@@ -44,6 +45,10 @@ const App = () => {
             ))
           }
         </table>
+
+        <br /><br />
+
+        <Practice/>
 
     </div>
   )
