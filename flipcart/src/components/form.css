@@ -1,0 +1,17 @@
+form{
+    width: 600px;
+    margin: 4% auto;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+}
+button{
+    padding: 14px 26px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 0;
+}
